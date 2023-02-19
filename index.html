@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./Rubik-Regular.ttf" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/068ec41cf0.js" crossorigin="anonymous"></script>
+    <title>Chat App</title>
+</head>
+<body>
+    <header>
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface.This makes it easy to discuss arragements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </header>
+    <main>
+        <section class="chat">
+            <h2 style="display: none">Chat</h2>
+            <article class="samuel">
+                <div class="white"></div>
+                <div class="arrow"><</div>
+                <div class="avatar">
+                     <img class="avatar" src="images/avatar.jpg" alt="avatar" >
+                </div>
+                <div class="stext">
+                     <h2>Samuel Green</h2>
+                     <p>Available to Walk</p>
+                </div>
+                <div class="img2">
+                     <img src="images/hamburger.png" alt="menu">
+                </div>
+            </article>
+            <article class="chatext">
+                <div class="textapp" >
+                    <p>That sounds great. I'd be happy with that</p>
+                    <p>Could you send over some pictures of your dog, please?</p>
+                </div>
+                <div class="dogs">
+                     <img src="images/dog-image-1.jpg" alt="dog1">
+                     <img src="images/dog-image-2.jpg" alt="dog2">
+                     <img src="images/dog-image-3.jpg" alt="dog3">
+                </div>
+                <div class="textclient">
+                      <p>Here are a few pictures. She's a happy girl!!!</p>
+                      <p>Can you make it?</p>
+                </div>
+                <div class="textapp">
+                      <p>She looks so happy! The time we discussed works. How long shall i take her out for? </p>
+                </div>
+                <div class="textclient" id="textadd">
+                </div>
+            </article>
+            <article class="buttons">
+                <button><i class="fa fa-circle-thin" aria-hidden="true"></i>30 minutos walk <span>$29</span></button>
+                <button><i class="fa fa-circle-thin" aria-hidden="true"></i>1 hour walk <span>$49</span></button>
+            </article>
+            <article>
+                <form action="" id="myform">
+                    <label></label>
+                    <input id="inp" class="itext" value="Type a message..." onfocus="this.value = ''">
+                    <input id="sub" class="sub" type="submit" value=">"  >
+               </form>
+            </article>
+        </section>
+    </main>
+    <script  src="./jsscript.js" > </script> 
+</body>
+</html>
